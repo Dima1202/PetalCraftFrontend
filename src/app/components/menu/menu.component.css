@@ -1,0 +1,84 @@
+.menu-section {
+    padding: 15px;
+    width: 120vh;         /* As requested */
+    margin-left: 230px;   /* As requested */
+    background: #fff0f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Custom two-column layout */
+  .col-custom-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 10px;
+  }
+  
+  /* Full width on small screens */
+  @media (max-width: 576px) {
+    .col-custom-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+  /* Flower card styles */
+  .menu-item {
+    border: 1px solid #d8d0c4;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(200, 190, 170, 0.15);
+  }
+  
+  .menu-item:hover {
+    box-shadow: 0 12px 25px rgba(150, 140, 120, 0.3);
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    object-position: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 240px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  /* .menu-item:hover .card-img-top {
+    transform: scale(1.05);
+  } */
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .card-title {
+    font-size: 1.1rem;
+    color: #3a2f23;
+    font-weight: 600;
+  }
+  
+  .price {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #e75a7c;
+  }
+  
+  .btn-sm {
+    background-color: #e75a7c;
+    border: none;
+    color: #fff;
+    padding: 0.35rem 0.75rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    box-shadow: 0 3px 6px rgba(231, 90, 124, 0.4);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .btn-sm:hover {
+    background-color: #d04769;
+    box-shadow: 0 6px 12px rgba(208, 71, 105, 0.6);
+  }
+  

@@ -1,0 +1,73 @@
+/* Category Section */
+#category-section {
+    background: #fff0f5; /* Soft lavender pink */
+    padding: 30px 40px;   
+    max-width: 1000px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(255, 192, 203, 0.4);
+    width: 120vh;
+    margin-left: 230px;
+  }
+  
+  /* Title */
+  #category-section h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #cc3366; /* Deep rose */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Category List - Responsive Grid */
+  .category-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Category Item */
+  .category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(255, 182, 193, 0.3);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .category-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 2px solid #ffe6ec;
+    background-color: #fff0f5;
+  }
+  
+  .category-item span {
+    font-weight: 600;
+    font-size: 16px;
+    color: #cc3366;
+  }
+  
+  /* Hover Effect */
+  .category-item:hover {
+    background: #ffe6ec;
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(255, 105, 180, 0.3);
+    color: #d63384;
+  }
+  
+  .category-item:hover span {
+    color: #d63384;
+  }
+  

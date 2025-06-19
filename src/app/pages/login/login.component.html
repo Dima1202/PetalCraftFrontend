@@ -1,0 +1,75 @@
+
+    <div class="container">
+        <video autoplay muted loop playsinline class="bg-video">
+        <source src="asset/video6.mp4" type="video/mp4" />
+    
+  </video>
+        <div class="form-cart">
+            <!-- form-hearder -->
+             <div class="form-header">
+               
+                <h2 class="title">🌷 Petal Craft</h2>
+                <p class="subtitle">🌸 Healthy Flowers Make Happy Moments</p>
+             </div>
+             <!-- signup-form -->
+           <form class="signup-form">
+
+                
+                <!-- email input -->
+                 <div class="form-group">
+                    <div class="input-wrapper">
+                        <input type="email" id="email" class="form-input" name="email" required [(ngModel)]="email">
+                        <label for="email" class="input-label">Username</label>
+                        <div class="input-border"></div>
+                        <div class="input-glow"></div>
+                    </div>
+                 </div>
+
+                  <!-- Password Input -->
+                <div class="form-group">
+                    <div class="input-wrapper">
+                        <input type="password" id="password" class="form-input" name="password" required [(ngModel)]="password">
+                        <label for="password" class="input-label">Password</label>
+                        <div class="input-border"></div>
+                        <div class="input-glow"></div>
+                    </div>
+                </div>
+
+                 <!-- Terms Checkbox -->
+                  <div class="form-group checkbox-group">
+                    <label class="checkbox-wrapper">
+                        <input type="checkbox" class="checkbox-input" required>
+                        <span class="checkbox-box"></span>
+                        <span class="checkbox-label">I agree to the Terms and Privacy Policy</span>
+                    </label>
+                </div>
+
+                 <!-- Submit Button -->
+                <button type="submit" class="submit-btn" (click)="login()">
+                    <span>Log in</span>
+                    <div class="btn-effect"></div>
+                </button>
+
+                <div class="form-divider">
+                    <span>or sign up with</span>
+                </div>
+                <div class="social-buttons">
+                    <button type="button" class="social-btn google">
+                        <span>Admin</span>
+                        <div class="btn-effect"></div>
+                    </button>
+
+                    <button type="button" class="social-btn facebook">
+                        <span>Cashier</span>
+                        <div class="btn-effect"></div>
+                    </button>
+                </div>
+
+                <div class="login-link" >Already have an account? <a href="#" class="link">Log in</a></div>
+
+             </form>
+             <!-- Card Effects -->
+            <div class="card-shine"></div>
+              
+        </div>
+    </div>
